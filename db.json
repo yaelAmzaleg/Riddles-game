@@ -1,0 +1,40 @@
+{
+  "riddles": [
+    {
+      "id": 1,
+      "name": "Easy Math",
+      "taskDescription": "What is 5 + 3?",
+      "correctAnswer": "8"
+    },
+    {
+      "id": 2,
+      "name": "Easy Math",
+      "taskDescription": "What is 10 * 3?",
+      "correctAnswer": "30"
+    },
+    {
+      "id": 3,
+      "name": "Easy Math",
+      "taskDescription": "What is 4 * 3?",
+      "correctAnswer": "12"
+    },
+    {
+      "id": 4,
+      "name": "Easy Math",
+      "taskDescription": "What is 10 / 5?",
+      "correctAnswer": "2"
+    }
+  ],
+  "players": [
+    {
+      "name": "yael",
+      "lowestTime": null,
+      "id": 1
+    },
+    {
+      "name": "lior",
+      "lowestTime": null,
+      "id": 2
+    }
+  ]
+}
