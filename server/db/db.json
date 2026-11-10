@@ -27,14 +27,9 @@
   ],
   "players": [
     {
+      "id": 1,
       "name": "yael",
-      "lowestTime": null,
-      "id": 1
-    },
-    {
-      "name": "lior",
-      "lowestTime": null,
-      "id": 2
+      "lowestTime": null
     }
   ]
 }
