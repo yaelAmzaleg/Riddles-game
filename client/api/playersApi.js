@@ -29,7 +29,7 @@ async function createPlayer(name) {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ name, lowestTime: null }),
-            duplex: 'half' // חובה ב-Node.js עבור בקשות עם body
+            duplex: 'half' 
         });
         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
         return await response.json();

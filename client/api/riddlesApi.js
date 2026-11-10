@@ -21,7 +21,7 @@ async function createRiddle(riddle) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(riddle),
-            duplex: 'half' // חובה ב-Node.js עבור בקשות עם body
+            duplex: 'half'
         });
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -41,7 +41,7 @@ async function updateRiddle(id, riddle) {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify(riddle),
-            duplex: 'half' // חובה ב-Node.js עבור בקשות PUT עם body
+            duplex: 'half' 
         });
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);

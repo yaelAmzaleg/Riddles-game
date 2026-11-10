@@ -11,7 +11,6 @@ class Riddle {
         console.log(`Name Of Riddle:${this.name}`)
         console.log(`taskDescription: ${this.taskDescription}`)
         let yourAnswer = 0
-        let time_to_add = 0
         while (yourAnswer != this.correctAnswer) {
             yourAnswer = prompt("Enter your Answer")
         }
